@@ -5,18 +5,21 @@ removeBtn.addEventListener('click', function () {
   const elementToRemove = document.getElementById('remove');
   elementToRemove.remove();
 });
+
 // Oppgave 2
 const changeTextBtn = document.getElementById('change-btn');
 changeTextBtn.addEventListener('click', function () {
   const elementToChange = document.getElementById('change');
   elementToChange.innerText = 'Hello World!';
 });
+
 // Oppgave 3
 const textInput = document.getElementById('input');
 textInput.addEventListener('input', function () {
   const paragraphToUpdate = document.getElementById('input-text');
   paragraphToUpdate.innerText = textInput.value;
 });
+
 // Oppgave 4
 const myList = ['item one', 'item two', 'item three'];
 const printListBtn = document.getElementById('write-list');
@@ -28,6 +31,7 @@ printListBtn.addEventListener('click', function () {
     list.appendChild(li);
   });
 });
+
 // Oppgave 5
 const createElementByn = document.getElementById('create');
 createElementByn.addEventListener('click', function () {
@@ -38,12 +42,14 @@ createElementByn.addEventListener('click', function () {
   const parentElement = document.getElementById('placeholder');
   parentElement.appendChild(newElement);
 });
+
 // Oppgave 6
 const removeElementFromListBtn = document.getElementById('remove-li');
 removeElementFromListBtn.addEventListener('click', function () {
   const listToRemoveFrom = document.getElementById('list');
   listToRemoveFrom.removeChild(listToRemoveFrom.lastElementChild);
 });
+
 // Oppgave 7
 const nameInput = document.getElementById('name');
 const orderBtn = document.getElementById('order');
@@ -57,6 +63,7 @@ nameInput.addEventListener('input', function () {
     orderBtn.style.border = '1px solid #ccc';
   }
 });
+
 // Oppgave 8
 const childElements = document.getElementsByClassName('children')[0].children;
 const changeColorBtn = document.getElementById('color');
