@@ -11,6 +11,7 @@ let numberOfErrors = 0;
 let positionOfLetterToWrite = 0;
 let wordCounter = 0;
 //  Lag en liste med ulike ord
+// word list from Wordle game (found in sources): https://www.nytimes.com/games/wordle/index.html
 const wordList = [
   'CIGAR',
   'REBUT',
